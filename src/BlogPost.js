@@ -19,10 +19,10 @@ export default class BlogPost extends Component {
         Still I'll rise.<br/>
         -Maya Angelou<br/>
 
-        <div className="comment">
+        <div>
           <Comment commentText={comments[0]} />
-          <Comment commentText={comments[0]} />
-          <Comment commentText={comments[0]} />
+          <Comment commentText={comments[1]} />
+          <Comment commentText={comments[2]} />
         </div>
       
       </div>
